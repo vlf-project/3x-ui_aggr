@@ -55,7 +55,7 @@ const agentFirstContactTimeout = 45 * time.Second
 const agentFirstContactPollInterval = time.Second
 
 const (
-	defaultInstallerRepoURL     = "https://github.com/skalover32-a11y/VLF-Proto.git"
+	defaultInstallerRepoURL     = "https://github.com/vlf-project/VLF-Proto.git"
 	defaultInstallerRef         = "main"
 	defaultInstallerGoVersion   = "1.25.1"
 	defaultInstallerInstallDir  = "/opt/vlf-proto"

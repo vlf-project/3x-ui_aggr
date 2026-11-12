@@ -1676,7 +1676,7 @@ function NodesPage() {
     confirm: "",
   });
   const [installVLFForm, setInstallVLFForm] = useState({
-    repo_url: "https://github.com/skalover32-a11y/VLF-Proto.git",
+    repo_url: "https://github.com/vlf-project/VLF-Proto.git",
     ref: "main",
     go_version: "1.25.1",
     install_dir: "/opt/vlf-proto",

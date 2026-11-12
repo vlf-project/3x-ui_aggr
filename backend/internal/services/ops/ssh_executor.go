@@ -29,7 +29,7 @@ type SSHExecutor struct {
 const (
 	remnaCronFilePath      = "/etc/cron.d/remnanode-geodata"
 	remnaLogrotateFilePath = "/etc/logrotate.d/remnanode-geodata"
-	vlfProtoInstallScript  = "https://raw.githubusercontent.com/skalover32-a11y/VLF-Proto/main/scripts/install.sh"
+	vlfProtoInstallScript  = "https://raw.githubusercontent.com/vlf-project/VLF-Proto/main/scripts/install.sh"
 	vlfProtoEnvFilePath    = "/etc/vlf-proto/.env"
 	vlfProtoBinaryPath     = "/usr/local/bin/vlf-gateway"
 	vlfProtoServicePath    = "/etc/systemd/system/vlf-gateway.service"

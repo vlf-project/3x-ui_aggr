@@ -4,7 +4,7 @@ import "testing"
 
 func TestChooseVLFProtoCommandPlan(t *testing.T) {
 	base := InstallVLFProtoParams{
-		RepoURL:    "https://github.com/skalover32-a11y/VLF-Proto.git",
+		RepoURL:    "https://github.com/vlf-project/VLF-Proto.git",
 		Ref:        "main",
 		GoVersion:  "1.25.1",
 		InstallDir: "/opt/vlf-proto",
